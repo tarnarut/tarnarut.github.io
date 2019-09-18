@@ -29,7 +29,6 @@ body,html {
   }
   #section3 {
     padding-top:50px;
-    height:500px;
     color: rgb(22, 22, 22); 
     background-color: whitesmoke;
     border-style: solid;
@@ -75,14 +74,14 @@ font-family: 'Cinzel Decorative', cursive;
 
 a {
   font-family:'Nunito', sans-serif;
-  font-size:2.1vw;
+  font-size:1.7vw;
   text-decoration: none;
   color:#17a2b8;
   position: relative;
    }
 
 a:hover {
-  color: #343a40;
+  color: #aad4fc;
   background-color: transparent;
   text-decoration: none;
   }
@@ -200,7 +199,7 @@ text-align: right;
 }
 
 .list-group {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .row_l {
@@ -247,5 +246,19 @@ right: auto;
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(233, 216, 216);
+}
+
+.col-8 {
+  padding-right:0;
+  padding-left:0;
+  position: relative;
+}
+
+.col-4 {
+  padding-left: 5px;
+}
+.row {
+  margin:0;
+  padding:0;
 }
