@@ -74,11 +74,17 @@ font-family: 'Cinzel Decorative', cursive;
 
 a {
   font-family:'Nunito', sans-serif;
-  font-size:1.7vw;
+  font-size:1.8vw;
   text-decoration: none;
   color:#17a2b8;
   position: relative;
    }
+
+@media screen and (max-width: 500px) {
+  a {
+      font-size:2.5vw;
+    }
+  }
 
 a:hover {
   color: #aad4fc;
