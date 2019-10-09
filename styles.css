@@ -45,7 +45,7 @@ body,html {
 
   #section5 {
     text-align: center;
-    height:150px;
+    height:200px;
     color: rgb(22, 22, 22); 
     background-color: whitesmoke;
     border-style: solid;
@@ -215,7 +215,7 @@ text-align: right;
 
 .initials {
   font-family:'Arizonia'; 
-  font-size: 5vw;
+  font-size: 4vw;
 }
   
 @media screen and (max-width: 500px) {
