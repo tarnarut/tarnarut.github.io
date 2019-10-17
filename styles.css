@@ -268,3 +268,12 @@ text-align: right;
     width: 30px;
     height: 30px;
   }
+}
+
+
+@media screen and (max-width: 500px) {
+  .btn {
+    display: none;
+  }
+}
+  
