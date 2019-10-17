@@ -105,7 +105,7 @@ a:hover {
 
 p {
 font-family:'Nunito', sans-serif;
-font-size:2vw;
+font-size:3vw;
 text-align: right;
  }
   
@@ -255,3 +255,14 @@ text-align: right;
   margin:0;
   padding:0;
 }
+
+.svg-inline--fa.fa-w-18 {
+  width: 60px;
+  height: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .svg-inline--fa.fa-w-18 {
+    width: 30px;
+    height: 30px;
+  }
